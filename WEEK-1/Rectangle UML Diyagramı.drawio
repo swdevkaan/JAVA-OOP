@@ -1,0 +1,19 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Sayfa-1" id="b5BGYqYxOW-dnakaktkw">
+    <mxGraphModel dx="1414" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-OWuH-DIILYaK3CX5CB8-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" value="Stock" vertex="1">
+          <mxGeometry height="20" width="269" x="279" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="-OWuH-DIILYaK3CX5CB8-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="&amp;nbsp;previousClosingPrice:double&lt;div&gt;currentPrice:double&lt;/div&gt;&lt;div&gt;symbol:String&lt;/div&gt;&lt;div&gt;name:String&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="269" x="279" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="-OWuH-DIILYaK3CX5CB8-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="Stock()&lt;div&gt;getChangePercent:double&lt;/div&gt;&lt;div&gt;Rectangle(newpreviousClosingPrice:double,&lt;/div&gt;&lt;div&gt;newcurrentPrice:double,&lt;/div&gt;&lt;div&gt;neewname:String,newsymbol:String)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="269" x="279" y="250" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
