@@ -1,2 +1,2 @@
 # JAVA-OOP
-java oop homeworks.
+java oop assignments
