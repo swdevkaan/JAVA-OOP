@@ -1,0 +1,46 @@
+package geoometricobject;
+import java.util.Date;
+
+public abstract class geoometricobject {
+    private String color = "white";
+    private boolean filled;
+    private Date dateCreated;
+
+    protected geoometricobject() {
+        dateCreated = new Date();
+    }
+
+    protected geoometricobject(String color, boolean filled) {
+        dateCreated = new Date();
+        this.color = color;
+        this.filled = filled;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public boolean isFilled() {
+        return filled;
+    }
+
+    public void setFilled(boolean filled) {
+        this.filled = filled;
+    }
+
+    public Date getDateCreated() {
+        return dateCreated;
+    }
+
+    @Override
+    public String toString() {
+        return "Created on " + dateCreated + "\ncolor: " + color + " and filled: " + filled;
+    }
+
+    public abstract double getArea();
+    public abstract double getPerimeter();
+}
